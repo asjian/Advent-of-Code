@@ -49,7 +49,6 @@ def basins():
     return (basinsizes[-1],basinsizes[-2],basinsizes[-3])
 
 def main():
-  print(chr(98))
   f = open('input9.txt','r')
   global heightmap
   heightmap = [line[:-1] for line in f]
