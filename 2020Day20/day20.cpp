@@ -633,8 +633,7 @@ int find_seamonsters() {
     return seamonster_count;
 }
 int main() {
-    string filename;
-    cin >> filename;
+    string filename = "input20.txt";
     ifstream fin(filename);
     if(!fin.is_open()) {
         std::cout<<"Error opening file"<<endl;
